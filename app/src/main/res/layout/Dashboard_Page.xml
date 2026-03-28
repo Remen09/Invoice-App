@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/home_page_scene">
+
+    <!--    TopBar   -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="410dp"
+        android:layout_height="113dp"
+        android:background="@color/cardview_dark_background"
+        android:text=""
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+<!--    Logo ITE  -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="156dp"
+        android:layout_height="78dp"
+        app:srcCompat="@drawable/images"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+
+    <!--    Footer   -->
+    <TextView
+    android:id="@+id/textView2"
+    android:layout_width="410dp"
+    android:layout_height="113dp"
+    android:background="@color/cardview_dark_background"
+    android:text=""
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="614dp" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="49dp"
+        android:layout_height="51dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/Dasboard"
+        android:text="@string/dashboard"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="625dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:text="@string/invoice"
+        app:srcCompat="@drawable/Invoice"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="625dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:text="@string/client"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/Client"
+        tools:layout_editor_absoluteX="314dp"
+        tools:layout_editor_absoluteY="625dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="184dp"
+        android:layout_height="117dp"
+        app:srcCompat="@drawable/iconlogin"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
