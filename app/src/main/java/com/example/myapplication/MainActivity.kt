@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -33,15 +34,15 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = "",
         modifier = modifier
     )
 }
-
-@Preview(showBackground = true)
+@SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
+@Preview
 @Composable
-fun GreetingPreview() {
-    MyApplicationTheme {
-        Greeting("Android")
+fun HomeScreen() {
+    Scaffold() {
+
     }
 }
