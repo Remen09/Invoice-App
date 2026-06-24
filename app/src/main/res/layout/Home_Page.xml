@@ -27,15 +27,16 @@
 
 
     <!--    Footer   -->
-    <TextView
-    android:id="@+id/textView2"
-    android:layout_width="410dp"
-    android:layout_height="113dp"
-    android:background="@color/cardview_dark_background"
-    android:text=""
-    tools:layout_editor_absoluteX="0dp"
-    tools:layout_editor_absoluteY="614dp" />
 
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="410dp"
+        android:layout_height="113dp"
+        android:background="@color/cardview_dark_background"
+        android:text=""
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="778dp" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -45,8 +46,8 @@
         android:scaleType="fitXY"
         android:src="@drawable/Dasboard"
         android:text="@string/dashboard"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="625dp" />
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="808dp" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -57,18 +58,18 @@
         android:text="@string/invoice"
         app:srcCompat="@drawable/Invoice"
         tools:layout_editor_absoluteX="179dp"
-        tools:layout_editor_absoluteY="625dp" />
+        tools:layout_editor_absoluteY="807dp" />
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:text="@string/client"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:background="@null"
         android:scaleType="fitXY"
+        android:text="@string/client"
         app:srcCompat="@drawable/Client"
-        tools:layout_editor_absoluteX="314dp"
-        tools:layout_editor_absoluteY="625dp" />
+        tools:layout_editor_absoluteX="318dp"
+        tools:layout_editor_absoluteY="807dp" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -107,14 +108,25 @@
         tools:layout_editor_absoluteX="75dp"
         tools:layout_editor_absoluteY="61dp" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="189dp"
-        android:layout_height="35dp"
-        android:text="TextView"
-        android:background=""
-        tools:layout_editor_absoluteX="108dp"
-        tools:layout_editor_absoluteY="321dp" />
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Password"
+        android:inputType="numberPassword"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="417dp" />
 
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
