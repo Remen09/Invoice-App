@@ -27,15 +27,16 @@
 
 
     <!--    Footer   -->
-    <TextView
-    android:id="@+id/textView2"
-    android:layout_width="410dp"
-    android:layout_height="113dp"
-    android:background="@color/cardview_dark_background"
-    android:text=""
-    tools:layout_editor_absoluteX="0dp"
-    tools:layout_editor_absoluteY="614dp" />
 
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="410dp"
+        android:layout_height="113dp"
+        android:background="@color/cardview_dark_background"
+        android:text=""
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="777dp" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -45,8 +46,8 @@
         android:scaleType="fitXY"
         android:src="@drawable/Dasboard"
         android:text="@string/dashboard"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="625dp" />
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="801dp" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -56,19 +57,19 @@
         android:scaleType="fitXY"
         android:text="@string/invoice"
         app:srcCompat="@drawable/Invoice"
-        tools:layout_editor_absoluteX="179dp"
-        tools:layout_editor_absoluteY="625dp" />
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="801dp" />
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:text="@string/client"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:background="@null"
         android:scaleType="fitXY"
+        android:text="@string/client"
         app:srcCompat="@drawable/Client"
-        tools:layout_editor_absoluteX="314dp"
-        tools:layout_editor_absoluteY="625dp" />
+        tools:layout_editor_absoluteX="308dp"
+        tools:layout_editor_absoluteY="801dp" />
 
     <ImageView
         android:id="@+id/imageView2"

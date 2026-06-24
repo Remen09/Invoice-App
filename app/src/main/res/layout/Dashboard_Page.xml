@@ -17,6 +17,26 @@
         tools:layout_editor_absoluteY="0dp" />
 
 <!--    Logo ITE  -->
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dashboard"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="46dp"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/Menu1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="55dp" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="156dp"
@@ -27,15 +47,16 @@
 
 
     <!--    Footer   -->
-    <TextView
-    android:id="@+id/textView2"
-    android:layout_width="410dp"
-    android:layout_height="113dp"
-    android:background="@color/cardview_dark_background"
-    android:text=""
-    tools:layout_editor_absoluteX="0dp"
-    tools:layout_editor_absoluteY="614dp" />
 
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="410dp"
+        android:layout_height="113dp"
+        android:background="@color/cardview_dark_background"
+        android:text=""
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="782dp" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -45,8 +66,8 @@
         android:scaleType="fitXY"
         android:src="@drawable/Dasboard"
         android:text="@string/dashboard"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="625dp" />
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="803dp" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -57,18 +78,18 @@
         android:text="@string/invoice"
         app:srcCompat="@drawable/Invoice"
         tools:layout_editor_absoluteX="179dp"
-        tools:layout_editor_absoluteY="625dp" />
+        tools:layout_editor_absoluteY="803dp" />
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:text="@string/client"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:background="@null"
         android:scaleType="fitXY"
+        android:text="@string/client"
         app:srcCompat="@drawable/Client"
-        tools:layout_editor_absoluteX="314dp"
-        tools:layout_editor_absoluteY="625dp" />
+        tools:layout_editor_absoluteX="315dp"
+        tools:layout_editor_absoluteY="803dp" />
 
     <ImageView
         android:id="@+id/imageView2"
