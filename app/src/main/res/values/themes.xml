@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <style name="Theme.MyApplication" parent="android:Theme.Material.Light.NoActionBar" />
-    <!-- Base application theme. -->
-    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <!-- Base application theme using Material Components Bridge -->
+    <style name="Theme.MyApplication" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#1A2B4A</item>
+        <item name="colorPrimaryVariant">#122038</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#2B6CB0</item>
+        <item name="colorSecondaryVariant">#1A4971</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#1A2B4A</item>
     </style>
+
+    <!-- This style matches the name used in your Manifest and satisfies the AppCompat requirement -->
+    <style name="Theme.MyApplication.AppCompat" parent="Theme.MyApplication" />
 </resources>

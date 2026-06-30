@@ -44,7 +44,7 @@
         android:layout_height="51dp"
         android:background="@null"
         android:scaleType="fitXY"
-        android:src="@drawable/Dasboard"
+        android:src="@drawable/dasboard"
         android:text="@string/dashboard"
         tools:layout_editor_absoluteX="39dp"
         tools:layout_editor_absoluteY="808dp" />
@@ -56,7 +56,7 @@
         android:background="@null"
         android:scaleType="fitXY"
         android:text="@string/invoice"
-        app:srcCompat="@drawable/Invoice"
+        app:srcCompat="@drawable/invoice"
         tools:layout_editor_absoluteX="179dp"
         tools:layout_editor_absoluteY="807dp" />
 
@@ -67,7 +67,7 @@
         android:background="@null"
         android:scaleType="fitXY"
         android:text="@string/client"
-        app:srcCompat="@drawable/Client"
+        app:srcCompat="@drawable/client"
         tools:layout_editor_absoluteX="318dp"
         tools:layout_editor_absoluteY="807dp" />
 
@@ -94,7 +94,7 @@
         android:layout_height="40dp"
         android:background="@null"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/Menu1"
+        app:srcCompat="@drawable/menu1"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="55dp" />
 
