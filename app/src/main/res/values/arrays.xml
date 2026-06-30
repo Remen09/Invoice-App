@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="invoice_filters">
+        <item>All</item>
+        <item>Paid</item>
+        <item>Unpaid</item>
+        <item>Pending</item>
+    </string-array>
+</resources>
